@@ -1,2 +1,4 @@
 # libmodbus_cmake_test
-A demo to test libmodbus integrated in cmake
+This is a demo to test libmodbus integrated in cmake.
+
+It's the Slave. You can use snapmodbus Master to work with the demo.

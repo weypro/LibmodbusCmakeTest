@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Client": {
+      "commandName": "Project",
+      "commandLineArgs": "udp -a 172.17.10.58",
+      "remoteDebugEnabled": false,
+      "nativeDebugging": true
+    }
+  }
+}

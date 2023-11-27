@@ -1,0 +1,16 @@
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.Form1.resources
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.csproj.GenerateResource.cache
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.AssemblyInfoInputs.cache
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.AssemblyInfo.cs
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.csproj.CoreCompileInputs.cache
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\Bin\x64\Release\net6.0-windows\WinFormsClient.exe
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\Bin\x64\Release\net6.0-windows\WinFormsClient.deps.json
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\Bin\x64\Release\net6.0-windows\WinFormsClient.runtimeconfig.json
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\Bin\x64\Release\net6.0-windows\WinFormsClient.dll
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\Bin\x64\Release\net6.0-windows\WinFormsClient.pdb
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.dll
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\refint\WinFormsClient.dll
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.pdb
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\WinFormsClient.genruntimeconfig.cache
+E:\projects\forgithub\libmodbus_cmake_test\3rdparty\SnapMB-full-1.0.0\examples\C#\WinFormsClient\obj\x64\Release\net6.0-windows\ref\WinFormsClient.dll

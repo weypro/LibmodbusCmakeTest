@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release">
+      <Item Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="..\Bin\$(TargetOS)\WinDevice"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <OtherUnitFiles Value=".."/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf3"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <Units>
+      <Unit>
+        <Filename Value="WinDevice.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="27"/>
+        <UsageCount Value="154"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmDevice"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="863"/>
+        <CursorPos X="40" Y="871"/>
+        <UsageCount Value="154"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="SnapMB.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="401"/>
+        <CursorPos X="3" Y="122"/>
+        <UsageCount Value="139"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmdevsettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SettingsForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmDevsettings"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="298"/>
+        <CursorPos X="3" Y="311"/>
+        <UsageCount Value="145"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="udataqueue.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDataQueue"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="53"/>
+        <CursorPos X="9" Y="71"/>
+        <UsageCount Value="125"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="snapmbcommon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SnapMBCommon"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="32"/>
+        <CursorPos X="3" Y="47"/>
+        <UsageCount Value="67"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="72" Y="3"/>
+        <UsageCount Value="119"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmmainbroker.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMainBroker"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="4"/>
+        <UsageCount Value="52"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="15" Y="14"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="10116"/>
+        <CursorPos X="17" Y="10122"/>
+        <UsageCount Value="69"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\SerialComVS\rs232.c"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos Y="54"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="C++"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\customcontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="12" Y="71"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\snap7.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="341"/>
+        <CursorPos Y="364"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\MainServer.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\snap7-full-1.4.2\rich-demos\MainServer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="7" Y="315"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\Smart7\source\classes\sm7_tcpsrvr.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="69"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="E:\Develop\Snap7\Smart7\source\classes\platform.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\snap7-full-1.4.2\rich-demos\frmPartner.pas"/>
+        <ComponentName Value="PartnerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="447"/>
+        <CursorPos Y="474"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\delphi-modbus-develop\demos\Indy10\Slave\frm_Main.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos X="27" Y="175"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="236"/>
+        <CursorPos X="3" Y="253"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frmbroker.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmBroker"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="625"/>
+        <CursorPos X="31" Y="643"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\interop\unit2.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="17"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2921"/>
+        <CursorPos Y="2959"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="snapmbcommon.pas"/>
+        <Caret Line="52" Column="28" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="snapmbcommon.pas"/>
+        <Caret Line="53" Column="17" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="snapmbcommon.pas"/>
+        <Caret Line="54" Column="19" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="snapmbcommon.pas"/>
+        <Caret Line="99" Column="3" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="550" Column="82" TopLine="528"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="502" Column="33" TopLine="480"/>
+      </Position>
+      <Position>
+        <Filename Value="snapmbcommon.pas"/>
+        <Caret Line="47" Column="3" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="134" Column="21" TopLine="120"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="732" Column="4" TopLine="506"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="137" Column="20" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="755" Column="27" TopLine="753"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="789" Column="13" TopLine="765"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="791" Column="13" TopLine="767"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="794" Column="29" TopLine="769"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="839" Column="11" TopLine="814"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="853" Column="13" TopLine="828"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="859" Column="13" TopLine="834"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="137" Column="23" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="138" Column="23" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="frmdevice.pas"/>
+        <Caret Line="871" Column="40" TopLine="863"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="304" Column="84" TopLine="299"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="303" Column="84" TopLine="298"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="304" Column="84" TopLine="299"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="419" Column="3" TopLine="417"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="184" Column="15" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="790" TopLine="790"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="184" TopLine="179"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="1003" Column="25" TopLine="977"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="437" Column="3" TopLine="435"/>
+      </Position>
+      <Position>
+        <Filename Value="frmbroker.pas"/>
+        <Caret Line="180" Column="15" TopLine="166"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="Coils"/>
+      </Item>
+      <Item>
+        <Expression Value="Data"/>
+      </Item>
+      <Item>
+        <Expression Value="Device"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

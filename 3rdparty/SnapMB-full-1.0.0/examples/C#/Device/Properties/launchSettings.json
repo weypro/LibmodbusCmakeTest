@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Device": {
+      "commandName": "Project",
+      "commandLineArgs": "rtu -c COM4"
+    }
+  }
+}

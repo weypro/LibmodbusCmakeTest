@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/28 13:16:46.000.584,=D:\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/19 09:49:08.000.578,D:\Projects\Project1.dproj=D:\SnapMB\examples\pascal\Delphi\Device.dproj</Transaction>
+    <Transaction>2022/12/19 10:04:02.000.276,D:\SnapMB\examples\pascal\Delphi\Device.dproj=D:\SnapMB\examples\pascal\Delphi\PasDevice.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

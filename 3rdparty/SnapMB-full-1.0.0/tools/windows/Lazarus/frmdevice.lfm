@@ -1,0 +1,3483 @@
+object MainForm: TMainForm
+  Left = 367
+  Height = 781
+  Top = 100
+  Width = 1302
+  Caption = 'Device Demo'
+  ClientHeight = 781
+  ClientWidth = 1302
+  Color = clWhite
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  LCLVersion = '2.2.2.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 1302
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'SnapMODBUS  -  Device Demo'
+    ClientHeight = 50
+    ClientWidth = 1302
+    Color = 7687981
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object btnProperties: TBCButton
+      Left = 8
+      Height = 34
+      Top = 8
+      Width = 43
+      StateClicked.Background.Color = 14323975
+      StateClicked.Background.Gradient1.StartColor = 8404992
+      StateClicked.Background.Gradient1.EndColor = 4194304
+      StateClicked.Background.Gradient1.GradientType = gtRadial
+      StateClicked.Background.Gradient1.Point1XPercent = 50
+      StateClicked.Background.Gradient1.Point1YPercent = 100
+      StateClicked.Background.Gradient1.Point2XPercent = 0
+      StateClicked.Background.Gradient1.Point2YPercent = 0
+      StateClicked.Background.Gradient2.StartColor = clWhite
+      StateClicked.Background.Gradient2.EndColor = clBlack
+      StateClicked.Background.Gradient2.GradientType = gtLinear
+      StateClicked.Background.Gradient2.Point1XPercent = 0
+      StateClicked.Background.Gradient2.Point1YPercent = 0
+      StateClicked.Background.Gradient2.Point2XPercent = 0
+      StateClicked.Background.Gradient2.Point2YPercent = 100
+      StateClicked.Background.Gradient1EndPercent = 100
+      StateClicked.Background.Style = bbsColor
+      StateClicked.Border.Style = bboNone
+      StateClicked.FontEx.Color = clBlack
+      StateClicked.FontEx.FontQuality = fqSystemClearType
+      StateClicked.FontEx.Shadow = False
+      StateClicked.FontEx.ShadowRadius = 2
+      StateClicked.FontEx.ShadowOffsetX = 1
+      StateClicked.FontEx.ShadowOffsetY = 1
+      StateClicked.FontEx.Style = [fsBold]
+      StateHover.Background.Color = 16434529
+      StateHover.Background.Gradient1.StartColor = 16744448
+      StateHover.Background.Gradient1.EndColor = 8404992
+      StateHover.Background.Gradient1.GradientType = gtRadial
+      StateHover.Background.Gradient1.Point1XPercent = 50
+      StateHover.Background.Gradient1.Point1YPercent = 100
+      StateHover.Background.Gradient1.Point2XPercent = 0
+      StateHover.Background.Gradient1.Point2YPercent = 0
+      StateHover.Background.Gradient2.StartColor = clWhite
+      StateHover.Background.Gradient2.EndColor = clBlack
+      StateHover.Background.Gradient2.GradientType = gtLinear
+      StateHover.Background.Gradient2.Point1XPercent = 0
+      StateHover.Background.Gradient2.Point1YPercent = 0
+      StateHover.Background.Gradient2.Point2XPercent = 0
+      StateHover.Background.Gradient2.Point2YPercent = 100
+      StateHover.Background.Gradient1EndPercent = 100
+      StateHover.Background.Style = bbsColor
+      StateHover.Border.Style = bboNone
+      StateHover.FontEx.Color = clBlack
+      StateHover.FontEx.FontQuality = fqSystemClearType
+      StateHover.FontEx.Shadow = False
+      StateHover.FontEx.ShadowRadius = 2
+      StateHover.FontEx.ShadowOffsetX = 1
+      StateHover.FontEx.ShadowOffsetY = 1
+      StateHover.FontEx.Style = [fsBold]
+      StateNormal.Background.Color = 16297510
+      StateNormal.Background.Gradient1.StartColor = clSilver
+      StateNormal.Background.Gradient1.EndColor = clGray
+      StateNormal.Background.Gradient1.GradientType = gtLinear
+      StateNormal.Background.Gradient1.Point1XPercent = 0
+      StateNormal.Background.Gradient1.Point1YPercent = 0
+      StateNormal.Background.Gradient1.Point2XPercent = 0
+      StateNormal.Background.Gradient1.Point2YPercent = 100
+      StateNormal.Background.Gradient1.Sinus = True
+      StateNormal.Background.Gradient2.StartColor = 8405056
+      StateNormal.Background.Gradient2.EndColor = 4194304
+      StateNormal.Background.Gradient2.GradientType = gtRadial
+      StateNormal.Background.Gradient2.Point1XPercent = 50
+      StateNormal.Background.Gradient2.Point1YPercent = 100
+      StateNormal.Background.Gradient2.Point2XPercent = 0
+      StateNormal.Background.Gradient2.Point2YPercent = 0
+      StateNormal.Background.Gradient1EndPercent = 60
+      StateNormal.Background.Style = bbsColor
+      StateNormal.Border.Style = bboNone
+      StateNormal.FontEx.Color = clBlack
+      StateNormal.FontEx.FontQuality = fqSystemClearType
+      StateNormal.FontEx.Shadow = False
+      StateNormal.FontEx.ShadowRadius = 2
+      StateNormal.FontEx.ShadowOffsetX = 1
+      StateNormal.FontEx.ShadowOffsetY = 1
+      StateNormal.FontEx.Style = [fsBold]
+      Color = clNone
+      DropDownWidth = 16
+      DropDownArrowSize = 8
+      GlobalOpacity = 255
+      Glyph.Data = {
+        36090000424D3609000000000000360000002800000018000000180000000100
+        2000000000000009000064000000640000000000000000000000000000000202
+        0250020202FF020202FF020202FF020202FF020202FF020202FF020202FF0202
+        02FF020202FF020202FF020202FF020202FF020202FF020202FF020202FF0202
+        02FF020202FF020202FF020202FF020202FF020202FF020202CF000000000404
+        0480040404FF040404FF040404FF040404FF040404FF040404FF040404FF0404
+        04FF040404FF040404FF040404FF040404FF040404FF040404FF040404FF0404
+        04FF040404FF040404FF040404FF040404FF040404FF040404FF000000000606
+        068F060606FF060606FF060606FF060606FF060606FF060606FF060606FF0606
+        06FF060606FF060606FF060606FF060606FF060606FF060606FF060606FF0606
+        06FF060606FF060606FF060606FF060606FF060606FF060606FF000000000808
+        088F080808FF080808FF080808FF080808FF080808FF080808FF080808FF0808
+        08FF080808FF080808FF080808FF080808FF080808FF080808FF080808FF0808
+        08FF080808FF080808FF080808FF080808FF080808FF080808FF000000000A0A
+        0A100A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A
+        0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A
+        0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A800A0A0A50000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000001616
+        1650161616FF161616FF161616FF161616FF161616FF161616FF161616FF1616
+        16FF161616FF161616FF161616FF161616FF161616FF161616FF161616FF1616
+        16FF161616FF161616FF161616FF161616FF161616FF161616CF000000001818
+        1880181818FF181818FF181818FF181818FF181818FF181818FF181818FF1818
+        18FF181818FF181818FF181818FF181818FF181818FF181818FF181818FF1818
+        18FF181818FF181818FF181818FF181818FF181818FF181818FF000000001B1B
+        1B8F1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B
+        1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B
+        1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF1B1B1BFF000000001C1C
+        1C8F1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D
+        1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D
+        1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF1D1D1DFF000000001E1E
+        1E101F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F
+        1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F
+        1F801F1F1F801F1F1F801F1F1F801F1F1F801F1F1F801E1E1E50000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000002B2B
+        2B502A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A
+        2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A
+        2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2AFF2A2A2ACF000000002D2D
+        2D802D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D
+        2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D
+        2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF2D2D2DFF000000002F2F
+        2F8F2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F
+        2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F
+        2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF2F2F2FFF000000003131
+        318F313131FF313131FF313131FF313131FF313131FF313131FF313131FF3131
+        31FF313131FF313131FF313131FF313131FF313131FF313131FF313131FF3131
+        31FF313131FF313131FF313131FF313131FF313131FF313131FF000000003232
+        3210333333803333338033333380333333803333338033333380333333803333
+        3380333333803333338033333380333333803333338033333380333333803333
+        3380333333803333338033333380333333803333338032323250000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000
+      }
+      GlyphAlignment = bcaLeftCenter
+      OnClick = btnPropertiesClick
+      ParentColor = False
+      Rounding.RoundX = 4
+      Rounding.RoundY = 2
+      RoundingDropDown.RoundX = 1
+      RoundingDropDown.RoundY = 1
+      TextApplyGlobalOpacity = False
+      MemoryUsage = bmuHigh
+    end
+    object btnConnection: TBCButton
+      Left = 59
+      Height = 34
+      Hint = 'Start Device'
+      Top = 8
+      Width = 43
+      StateClicked.Background.Color = 24801
+      StateClicked.Background.Gradient1.StartColor = 8404992
+      StateClicked.Background.Gradient1.EndColor = 4194304
+      StateClicked.Background.Gradient1.GradientType = gtRadial
+      StateClicked.Background.Gradient1.Point1XPercent = 50
+      StateClicked.Background.Gradient1.Point1YPercent = 100
+      StateClicked.Background.Gradient1.Point2XPercent = 0
+      StateClicked.Background.Gradient1.Point2YPercent = 0
+      StateClicked.Background.Gradient2.StartColor = clWhite
+      StateClicked.Background.Gradient2.EndColor = clBlack
+      StateClicked.Background.Gradient2.GradientType = gtLinear
+      StateClicked.Background.Gradient2.Point1XPercent = 0
+      StateClicked.Background.Gradient2.Point1YPercent = 0
+      StateClicked.Background.Gradient2.Point2XPercent = 0
+      StateClicked.Background.Gradient2.Point2YPercent = 100
+      StateClicked.Background.Gradient1EndPercent = 100
+      StateClicked.Background.Style = bbsColor
+      StateClicked.Border.Style = bboNone
+      StateClicked.FontEx.Color = clBlack
+      StateClicked.FontEx.FontQuality = fqSystemClearType
+      StateClicked.FontEx.Shadow = False
+      StateClicked.FontEx.ShadowRadius = 2
+      StateClicked.FontEx.ShadowOffsetX = 1
+      StateClicked.FontEx.ShadowOffsetY = 1
+      StateClicked.FontEx.Style = [fsBold]
+      StateHover.Background.Color = 8703229
+      StateHover.Background.Gradient1.StartColor = 16744448
+      StateHover.Background.Gradient1.EndColor = 8404992
+      StateHover.Background.Gradient1.GradientType = gtRadial
+      StateHover.Background.Gradient1.Point1XPercent = 50
+      StateHover.Background.Gradient1.Point1YPercent = 100
+      StateHover.Background.Gradient1.Point2XPercent = 0
+      StateHover.Background.Gradient1.Point2YPercent = 0
+      StateHover.Background.Gradient2.StartColor = clWhite
+      StateHover.Background.Gradient2.EndColor = clBlack
+      StateHover.Background.Gradient2.GradientType = gtLinear
+      StateHover.Background.Gradient2.Point1XPercent = 0
+      StateHover.Background.Gradient2.Point1YPercent = 0
+      StateHover.Background.Gradient2.Point2XPercent = 0
+      StateHover.Background.Gradient2.Point2YPercent = 100
+      StateHover.Background.Gradient1EndPercent = 100
+      StateHover.Background.Style = bbsColor
+      StateHover.Border.Style = bboNone
+      StateHover.FontEx.Color = clBlack
+      StateHover.FontEx.FontQuality = fqSystemClearType
+      StateHover.FontEx.Shadow = False
+      StateHover.FontEx.ShadowRadius = 2
+      StateHover.FontEx.ShadowOffsetX = 1
+      StateHover.FontEx.ShadowOffsetY = 1
+      StateHover.FontEx.Style = [fsBold]
+      StateNormal.Background.Color = 3115775
+      StateNormal.Background.Gradient1.StartColor = clSilver
+      StateNormal.Background.Gradient1.EndColor = clGray
+      StateNormal.Background.Gradient1.GradientType = gtLinear
+      StateNormal.Background.Gradient1.Point1XPercent = 0
+      StateNormal.Background.Gradient1.Point1YPercent = 0
+      StateNormal.Background.Gradient1.Point2XPercent = 0
+      StateNormal.Background.Gradient1.Point2YPercent = 100
+      StateNormal.Background.Gradient1.Sinus = True
+      StateNormal.Background.Gradient2.StartColor = 8405056
+      StateNormal.Background.Gradient2.EndColor = 4194304
+      StateNormal.Background.Gradient2.GradientType = gtRadial
+      StateNormal.Background.Gradient2.Point1XPercent = 50
+      StateNormal.Background.Gradient2.Point1YPercent = 100
+      StateNormal.Background.Gradient2.Point2XPercent = 0
+      StateNormal.Background.Gradient2.Point2YPercent = 0
+      StateNormal.Background.Gradient1EndPercent = 60
+      StateNormal.Background.Style = bbsColor
+      StateNormal.Border.Style = bboNone
+      StateNormal.FontEx.Color = clBlack
+      StateNormal.FontEx.FontQuality = fqSystemClearType
+      StateNormal.FontEx.Shadow = False
+      StateNormal.FontEx.ShadowRadius = 2
+      StateNormal.FontEx.ShadowOffsetX = 1
+      StateNormal.FontEx.ShadowOffsetY = 1
+      StateNormal.FontEx.Style = [fsBold]
+      Color = clNone
+      DropDownWidth = 16
+      DropDownArrowSize = 8
+      GlobalOpacity = 255
+      GlyphAlignment = bcaLeftCenter
+      OnClick = btnConnectionClick
+      ParentColor = False
+      Rounding.RoundX = 4
+      Rounding.RoundY = 2
+      RoundingDropDown.RoundX = 1
+      RoundingDropDown.RoundY = 1
+      ShowHint = True
+      TextApplyGlobalOpacity = False
+      Images = BGRAImageList1
+      ImageIndex = 0
+      MemoryUsage = bmuHigh
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 731
+    Top = 50
+    Width = 186
+    Align = alLeft
+    BevelOuter = bvNone
+    ClientHeight = 731
+    ClientWidth = 186
+    Color = 7687981
+    Font.Quality = fqAntialiased
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Panel2Click
+    object pnlConnection: TBCPanel
+      Left = 8
+      Height = 106
+      Top = 1
+      Width = 170
+      Background.Color = 5030252
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point1XPercent = 0
+      Background.Gradient1.Point1YPercent = 0
+      Background.Gradient1.Point2XPercent = 0
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point1XPercent = 0
+      Background.Gradient2.Point1YPercent = 0
+      Background.Gradient2.Point2XPercent = 0
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.Style = bboNone
+      BorderBCStyle = bpsBorder
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 4
+      Rounding.RoundY = 4
+      TabOrder = 0
+      object lblConnection: TLabel
+        Left = 5
+        Height = 25
+        Top = 6
+        Width = 78
+        Caption = 'Running'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblDeviceIDLabel: TLabel
+        Left = 5
+        Height = 16
+        Top = 45
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Device ID'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblDeviceID: TLabel
+        Left = 7
+        Height = 35
+        Top = 67
+        Width = 157
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = '1'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -29
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object pnlDataLink: TBCPanel
+      Left = 8
+      Height = 106
+      Top = 113
+      Width = 170
+      Background.Color = 16297510
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point1XPercent = 0
+      Background.Gradient1.Point1YPercent = 0
+      Background.Gradient1.Point2XPercent = 0
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point1XPercent = 0
+      Background.Gradient2.Point1YPercent = 0
+      Background.Gradient2.Point2XPercent = 0
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.Style = bboNone
+      BorderBCStyle = bpsBorder
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 4
+      Rounding.RoundY = 4
+      TabOrder = 1
+      object lblDataLink: TLabel
+        Left = 5
+        Height = 25
+        Top = 6
+        Width = 80
+        Caption = 'Ethernet'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblFlavourLabel: TLabel
+        Left = 5
+        Height = 16
+        Top = 45
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Protocol'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblFlavour: TLabel
+        Left = 5
+        Height = 35
+        Top = 67
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'RTU-UDP'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -29
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object pnlChannel: TBCPanel
+      Left = 8
+      Height = 106
+      Top = 225
+      Width = 170
+      Background.Color = 3115775
+      Background.Gradient1.StartColor = clWhite
+      Background.Gradient1.EndColor = clBlack
+      Background.Gradient1.GradientType = gtLinear
+      Background.Gradient1.Point1XPercent = 0
+      Background.Gradient1.Point1YPercent = 0
+      Background.Gradient1.Point2XPercent = 0
+      Background.Gradient1.Point2YPercent = 100
+      Background.Gradient2.StartColor = clWhite
+      Background.Gradient2.EndColor = clBlack
+      Background.Gradient2.GradientType = gtLinear
+      Background.Gradient2.Point1XPercent = 0
+      Background.Gradient2.Point1YPercent = 0
+      Background.Gradient2.Point2XPercent = 0
+      Background.Gradient2.Point2YPercent = 100
+      Background.Gradient1EndPercent = 35
+      Background.Style = bbsColor
+      BevelInner = bvNone
+      BevelOuter = bvNone
+      BevelWidth = 1
+      Border.Style = bboNone
+      BorderBCStyle = bpsBorder
+      FontEx.Color = clDefault
+      FontEx.FontQuality = fqSystemClearType
+      FontEx.Shadow = False
+      FontEx.ShadowRadius = 5
+      FontEx.ShadowOffsetX = 5
+      FontEx.ShadowOffsetY = 5
+      FontEx.Style = []
+      ParentBackground = False
+      Rounding.RoundX = 4
+      Rounding.RoundY = 4
+      TabOrder = 2
+      object lblDataLink1: TLabel
+        Left = 5
+        Height = 25
+        Top = 6
+        Width = 83
+        AutoSize = False
+        Caption = 'Channel'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblLinkNameLabel: TLabel
+        Left = 104
+        Height = 16
+        Top = 19
+        Width = 60
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Address'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblLinkName: TLabel
+        Left = 5
+        Height = 26
+        Top = 37
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = '192.168.231.230'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblParamsLabel: TLabel
+        Left = 5
+        Height = 16
+        Top = 63
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = 'Port'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblParams: TLabel
+        Left = 5
+        Height = 26
+        Top = 80
+        Width = 159
+        Alignment = taRightJustify
+        AutoSize = False
+        Caption = '502'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Pitch = fpVariable
+        Font.Quality = fqCleartypeNatural
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object Panel3: TPanel
+    Left = 186
+    Height = 731
+    Top = 50
+    Width = 1116
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 731
+    ClientWidth = 1116
+    Color = 7687981
+    ParentColor = False
+    TabOrder = 2
+    object PageControl2: TPageControl
+      Left = 0
+      Height = 708
+      Top = 0
+      Width = 1116
+      ActivePage = TabSheet5
+      Align = alClient
+      Font.Quality = fqCleartypeNatural
+      ParentFont = False
+      TabIndex = 0
+      TabOrder = 0
+      TabPosition = tpBottom
+      object TabSheet5: TTabSheet
+        Caption = 'Resources'
+        ClientHeight = 680
+        ClientWidth = 1108
+        object PCGrids: TPageControl
+          Left = 0
+          Height = 652
+          Top = 28
+          Width = 1108
+          ActivePage = TabSheet4
+          Align = alClient
+          Font.Quality = fqCleartypeNatural
+          ParentFont = False
+          TabIndex = 3
+          TabOrder = 0
+          OnChange = PCGridsChange
+          object TabSheet1: TTabSheet
+            Caption = 'Coils'
+            ClientHeight = 624
+            ClientWidth = 1100
+            object gridCoils: TStringGrid
+              Left = 0
+              Height = 608
+              Top = 0
+              Width = 1100
+              Align = alClient
+              AlternateColor = clWhite
+              BorderStyle = bsNone
+              ColCount = 33
+              Columns = <              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '0'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '1'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '2'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '3'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '4'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '5'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '6'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '7'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '8'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '9'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '10'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '11'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '12'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '13'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '14'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '15'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '16'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '17'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '18'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '19'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '20'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '21'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '22'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '23'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '24'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '25'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '26'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '27'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '28'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '29'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '30'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '31'
+                  Width = 24
+                end>
+              DefaultColWidth = 50
+              DefaultRowHeight = 18
+              FixedColor = 14334620
+              Flat = True
+              GridLineStyle = psDot
+              Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected, goSmoothScroll]
+              RowCount = 2049
+              ScrollBars = ssVertical
+              TabOrder = 0
+              TitleFont.CharSet = ANSI_CHARSET
+              TitleFont.Pitch = fpVariable
+              TitleFont.Quality = fqCleartype
+              TitleFont.Style = [fsBold]
+              OnDblClick = gridCoilsDblClick
+              OnDrawCell = gridCoilsDrawCell
+              OnKeyDown = gridCoilsKeyDown
+              OnSelectCell = gridCoilsSelectCell
+            end
+            object Label2: TLabel
+              Left = 0
+              Height = 16
+              Top = 608
+              Width = 1100
+              Align = alBottom
+              Caption = 'Double click or [Space] or [Enter] to toggle the bit. Press 1 to set, 0 to reset'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clMenuHighlight
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqCleartypeNatural
+              Font.Style = [fsItalic]
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+          object TabSheet2: TTabSheet
+            Caption = 'Discrete Inputs'
+            ClientHeight = 624
+            ClientWidth = 1100
+            object gridDiscrete: TStringGrid
+              Left = 0
+              Height = 608
+              Top = 0
+              Width = 1100
+              Align = alClient
+              AlternateColor = clWhite
+              BorderStyle = bsNone
+              ColCount = 33
+              Columns = <              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '0'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '1'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '2'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '3'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '4'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '5'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '6'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '7'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '8'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '9'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '10'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '11'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '12'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '13'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '14'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '15'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Font.Style = [fsBold]
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '16'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '17'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '18'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '19'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '20'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '21'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '22'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '23'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '24'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '25'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '26'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '27'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '28'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '29'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '30'
+                  Width = 24
+                end              
+                item
+                  Alignment = taRightJustify
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqCleartype
+                  Title.Caption = '31'
+                  Width = 24
+                end>
+              DefaultColWidth = 50
+              DefaultRowHeight = 18
+              FixedColor = 14334620
+              Flat = True
+              GridLineStyle = psDot
+              Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected, goSmoothScroll]
+              RowCount = 2049
+              ScrollBars = ssVertical
+              TabOrder = 0
+              TitleFont.CharSet = ANSI_CHARSET
+              TitleFont.Pitch = fpVariable
+              TitleFont.Quality = fqCleartype
+              TitleFont.Style = [fsBold]
+              OnDblClick = gridDiscreteDblClick
+              OnDrawCell = gridDiscreteDrawCell
+              OnKeyDown = gridDiscreteKeyDown
+              OnSelectCell = gridCoilsSelectCell
+            end
+            object Label1: TLabel
+              Left = 0
+              Height = 16
+              Top = 608
+              Width = 1100
+              Align = alBottom
+              Caption = 'Double click or [Space] or [Enter] to toggle the bit. Press 1 to set, 0 to reset'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clMenuHighlight
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqCleartypeNatural
+              Font.Style = [fsItalic]
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+          object TabSheet3: TTabSheet
+            Caption = 'Input Registers'
+            ClientHeight = 624
+            ClientWidth = 1100
+            object gridInputRegs: TStringGrid
+              Left = 0
+              Height = 608
+              Top = 0
+              Width = 1100
+              Align = alClient
+              AlternateColor = 14024661
+              BorderStyle = bsNone
+              ColCount = 17
+              Columns = <              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '+0'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '+1'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+2'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+3'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+4'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+5'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+6'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+7'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+8'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+9'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+10'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+11'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+12'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+13'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+14'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+15'
+                  Width = 64
+                end>
+              DefaultColWidth = 50
+              DefaultRowHeight = 18
+              FixedColor = 14334620
+              Flat = True
+              Font.Quality = fqCleartypeNatural
+              GridLineStyle = psDash
+              HeaderPushZones = [gzFixedCols, gzFixedRows, gzFixedCells]
+              Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected, goEditing, goSmoothScroll]
+              ParentFont = False
+              RowCount = 2049
+              ScrollBars = ssBoth
+              TabOrder = 0
+              OnSelectCell = gridInputRegsSelectCell
+              OnValidateEntry = gridInputRegsValidateEntry
+              ColWidths = (
+                50
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+              )
+            end
+            object Label3: TLabel
+              Left = 0
+              Height = 16
+              Top = 608
+              Width = 1100
+              Align = alBottom
+              Caption = 'Double click or [F2] or [Enter] to edit'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clMenuHighlight
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqCleartypeNatural
+              Font.Style = [fsItalic]
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+          object TabSheet4: TTabSheet
+            Caption = 'Holding Registers'
+            ClientHeight = 624
+            ClientWidth = 1100
+            object gridHoldingRegs: TStringGrid
+              Left = 0
+              Height = 608
+              Top = 0
+              Width = 1100
+              Align = alClient
+              AlternateColor = 14024661
+              BorderStyle = bsNone
+              ColCount = 17
+              Columns = <              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '+0'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Font.CharSet = ANSI_CHARSET
+                  Title.Font.Pitch = fpVariable
+                  Title.Font.Quality = fqDraft
+                  Title.Caption = '+1'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+2'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+3'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+4'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+5'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+6'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+7'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+8'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+9'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+10'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+11'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+12'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+13'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+14'
+                  Width = 64
+                end              
+                item
+                  Alignment = taCenter
+                  Title.Alignment = taCenter
+                  Title.Caption = '+15'
+                  Width = 64
+                end>
+              DefaultColWidth = 50
+              DefaultRowHeight = 18
+              FixedColor = 14334620
+              Flat = True
+              Font.CharSet = ANSI_CHARSET
+              Font.Height = -12
+              Font.Name = 'Segoe UI'
+              Font.Pitch = fpVariable
+              Font.Quality = fqCleartypeNatural
+              GridLineStyle = psDash
+              HeaderPushZones = [gzFixedCols, gzFixedRows, gzFixedCells]
+              Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goDrawFocusSelected, goEditing, goSmoothScroll]
+              ParentFont = False
+              RowCount = 2049
+              ScrollBars = ssBoth
+              TabOrder = 0
+              OnSelectCell = gridHoldingRegsSelectCell
+              OnValidateEntry = gridHoldingRegsValidateEntry
+              ColWidths = (
+                50
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+                64
+              )
+            end
+            object Label4: TLabel
+              Left = 0
+              Height = 16
+              Top = 608
+              Width = 1100
+              Align = alBottom
+              Caption = 'Double click or [F2] or [Enter] to edit'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clMenuHighlight
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqCleartypeNatural
+              Font.Style = [fsItalic]
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+        end
+        object Panel4: TPanel
+          Left = 0
+          Height = 28
+          Top = 0
+          Width = 1108
+          Align = alTop
+          BevelOuter = bvNone
+          ClientHeight = 28
+          ClientWidth = 1108
+          Color = clWhite
+          ParentColor = False
+          TabOrder = 1
+          object btnZeroArea: TBCButton
+            Left = 125
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 24801
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 8703229
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 3115775
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Zero Area'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftTop
+            GlyphMargin = 1
+            OnClick = FillAreaClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            ImageIndex = -10
+            MemoryUsage = bmuHigh
+          end
+          object btnZeroAll: TBCButton
+            Left = 1
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 6850598
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 12179831
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 9155891
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Zero All'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftCenter
+            OnClick = btnZeroAllClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            MemoryUsage = bmuHigh
+          end
+          object btnRandomFillAll: TBCButton
+            Left = 249
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 6850598
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 12179831
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 9155891
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Random Fill All'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftCenter
+            OnClick = btnRandomFillAllClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            MemoryUsage = bmuHigh
+          end
+          object btnRandomFillArea: TBCButton
+            Tag = 1
+            Left = 373
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 24801
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 8703229
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 3115775
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Random Fill Area'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftTop
+            GlyphMargin = 1
+            OnClick = FillAreaClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            ImageIndex = -10
+            MemoryUsage = bmuHigh
+          end
+          object cbFormat: TBCComboBox
+            Left = 907
+            Height = 25
+            Top = 0
+            Width = 120
+            Anchors = [akRight, akBottom]
+            Items.Strings = (
+              'Decimal'
+              'Hexadecimal'
+            )
+            ItemIndex = 1
+            ArrowSize = 8
+            ArrowWidth = 16
+            FocusBorderOpacity = 0
+            GlobalOpacity = 255
+            MemoryUsage = bmuHigh
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            StateClicked.Background.Color = 14323975
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 16434529
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 16297510
+            StateNormal.Background.Gradient1.StartColor = 4194304
+            StateNormal.Background.Gradient1.EndColor = 8405056
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            StaticButton = False
+            OnChange = cbFormatChange
+            TabOrder = 0
+          end
+          object ItemIndex: TBCPanel
+            Left = 1031
+            Height = 25
+            Top = 0
+            Width = 75
+            Anchors = [akRight, akBottom]
+            Background.Color = 7687981
+            Background.Gradient1.StartColor = clWhite
+            Background.Gradient1.EndColor = clBlack
+            Background.Gradient1.GradientType = gtLinear
+            Background.Gradient1.Point1XPercent = 0
+            Background.Gradient1.Point1YPercent = 0
+            Background.Gradient1.Point2XPercent = 0
+            Background.Gradient1.Point2YPercent = 100
+            Background.Gradient2.StartColor = clWhite
+            Background.Gradient2.EndColor = clBlack
+            Background.Gradient2.GradientType = gtLinear
+            Background.Gradient2.Point1XPercent = 0
+            Background.Gradient2.Point1YPercent = 0
+            Background.Gradient2.Point2XPercent = 0
+            Background.Gradient2.Point2YPercent = 100
+            Background.Gradient1EndPercent = 35
+            Background.Style = bbsColor
+            BevelInner = bvNone
+            BevelOuter = bvNone
+            BevelWidth = 1
+            Border.Style = bboNone
+            BorderBCStyle = bpsBorder
+            Caption = '1245'
+            FontEx.Color = clWhite
+            FontEx.FontQuality = fqSystemClearType
+            FontEx.Shadow = False
+            FontEx.ShadowRadius = 5
+            FontEx.ShadowOffsetX = 5
+            FontEx.ShadowOffsetY = 5
+            FontEx.Style = [fsBold]
+            ParentBackground = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            TabOrder = 1
+          end
+          object btnIncreaseFill: TBCButton
+            Left = 498
+            Height = 25
+            Top = 0
+            Width = 136
+            StateClicked.Background.Color = 14323975
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 16434529
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 16297510
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Increase Fill All'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftCenter
+            OnClick = btnIncreaseFillClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 2
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            MemoryUsage = bmuHigh
+          end
+        end
+      end
+      object TabSheet6: TTabSheet
+        Caption = 'Events'
+        ClientHeight = 680
+        ClientWidth = 1108
+        object Splitter1: TSplitter
+          Cursor = crVSplit
+          Left = 0
+          Height = 6
+          Top = 349
+          Width = 1108
+          Align = alTop
+          ResizeAnchor = akTop
+        end
+        object Log: TStringGrid
+          Left = 0
+          Height = 320
+          Top = 29
+          Width = 1108
+          Align = alTop
+          AutoFillColumns = True
+          ColCount = 2
+          Columns = <          
+            item
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Courier New'
+              Font.Pitch = fpFixed
+              Font.Quality = fqDraft
+              Title.Alignment = taCenter
+              Title.Font.CharSet = ANSI_CHARSET
+              Title.Font.Color = clWhite
+              Title.Font.Name = 'Tahoma'
+              Title.Font.Pitch = fpFixed
+              Title.Font.Quality = fqCleartype
+              Title.Caption = 'Log'
+              Width = 1060
+            end>
+          DefaultColWidth = 30
+          DefaultRowHeight = 18
+          ExtendedSelect = False
+          FixedColor = 7687981
+          Flat = True
+          Font.CharSet = ANSI_CHARSET
+          Font.Name = 'Courier New'
+          Font.Pitch = fpFixed
+          Font.Quality = fqCleartypeNatural
+          GridLineColor = cl3DLight
+          Options = [goVertLine, goHorzLine, goSmoothScroll]
+          ParentFont = False
+          RowCount = 2
+          ScrollBars = ssVertical
+          TabOrder = 1
+          OnDrawCell = LogDrawCell
+          ColWidths = (
+            30
+            1060
+          )
+        end
+        object Panel5: TPanel
+          Left = 0
+          Height = 29
+          Top = 0
+          Width = 1108
+          Align = alTop
+          BevelOuter = bvNone
+          ClientHeight = 29
+          ClientWidth = 1108
+          Color = clWhite
+          ParentColor = False
+          TabOrder = 2
+          object btnClearDump: TBCButton
+            Left = 125
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 24801
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 8703229
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 3115775
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Clear Dump'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftTop
+            GlyphMargin = 1
+            OnClick = btnClearDumpClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 2
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            ImageIndex = -10
+            MemoryUsage = bmuHigh
+          end
+          object btnClearLog: TBCButton
+            Left = 1
+            Height = 25
+            Top = 0
+            Width = 120
+            StateClicked.Background.Color = 14323975
+            StateClicked.Background.Gradient1.StartColor = 8404992
+            StateClicked.Background.Gradient1.EndColor = 4194304
+            StateClicked.Background.Gradient1.GradientType = gtRadial
+            StateClicked.Background.Gradient1.Point1XPercent = 50
+            StateClicked.Background.Gradient1.Point1YPercent = 100
+            StateClicked.Background.Gradient1.Point2XPercent = 0
+            StateClicked.Background.Gradient1.Point2YPercent = 0
+            StateClicked.Background.Gradient2.StartColor = clWhite
+            StateClicked.Background.Gradient2.EndColor = clBlack
+            StateClicked.Background.Gradient2.GradientType = gtLinear
+            StateClicked.Background.Gradient2.Point1XPercent = 0
+            StateClicked.Background.Gradient2.Point1YPercent = 0
+            StateClicked.Background.Gradient2.Point2XPercent = 0
+            StateClicked.Background.Gradient2.Point2YPercent = 100
+            StateClicked.Background.Gradient1EndPercent = 100
+            StateClicked.Background.Style = bbsColor
+            StateClicked.Border.Style = bboNone
+            StateClicked.FontEx.Color = clBlack
+            StateClicked.FontEx.FontQuality = fqSystemClearType
+            StateClicked.FontEx.Shadow = False
+            StateClicked.FontEx.ShadowRadius = 2
+            StateClicked.FontEx.ShadowOffsetX = 1
+            StateClicked.FontEx.ShadowOffsetY = 1
+            StateClicked.FontEx.Style = [fsBold]
+            StateHover.Background.Color = 16434529
+            StateHover.Background.Gradient1.StartColor = 16744448
+            StateHover.Background.Gradient1.EndColor = 8404992
+            StateHover.Background.Gradient1.GradientType = gtRadial
+            StateHover.Background.Gradient1.Point1XPercent = 50
+            StateHover.Background.Gradient1.Point1YPercent = 100
+            StateHover.Background.Gradient1.Point2XPercent = 0
+            StateHover.Background.Gradient1.Point2YPercent = 0
+            StateHover.Background.Gradient2.StartColor = clWhite
+            StateHover.Background.Gradient2.EndColor = clBlack
+            StateHover.Background.Gradient2.GradientType = gtLinear
+            StateHover.Background.Gradient2.Point1XPercent = 0
+            StateHover.Background.Gradient2.Point1YPercent = 0
+            StateHover.Background.Gradient2.Point2XPercent = 0
+            StateHover.Background.Gradient2.Point2YPercent = 100
+            StateHover.Background.Gradient1EndPercent = 100
+            StateHover.Background.Style = bbsColor
+            StateHover.Border.Style = bboNone
+            StateHover.FontEx.Color = clBlack
+            StateHover.FontEx.FontQuality = fqSystemClearType
+            StateHover.FontEx.Shadow = False
+            StateHover.FontEx.ShadowRadius = 2
+            StateHover.FontEx.ShadowOffsetX = 1
+            StateHover.FontEx.ShadowOffsetY = 1
+            StateHover.FontEx.Style = [fsBold]
+            StateNormal.Background.Color = 16297510
+            StateNormal.Background.Gradient1.StartColor = clSilver
+            StateNormal.Background.Gradient1.EndColor = clGray
+            StateNormal.Background.Gradient1.GradientType = gtLinear
+            StateNormal.Background.Gradient1.Point1XPercent = 0
+            StateNormal.Background.Gradient1.Point1YPercent = 0
+            StateNormal.Background.Gradient1.Point2XPercent = 0
+            StateNormal.Background.Gradient1.Point2YPercent = 100
+            StateNormal.Background.Gradient1.Sinus = True
+            StateNormal.Background.Gradient2.StartColor = 8405056
+            StateNormal.Background.Gradient2.EndColor = 4194304
+            StateNormal.Background.Gradient2.GradientType = gtRadial
+            StateNormal.Background.Gradient2.Point1XPercent = 50
+            StateNormal.Background.Gradient2.Point1YPercent = 100
+            StateNormal.Background.Gradient2.Point2XPercent = 0
+            StateNormal.Background.Gradient2.Point2YPercent = 0
+            StateNormal.Background.Gradient1EndPercent = 60
+            StateNormal.Background.Style = bbsColor
+            StateNormal.Border.Style = bboNone
+            StateNormal.FontEx.Color = clBlack
+            StateNormal.FontEx.FontQuality = fqSystemClearType
+            StateNormal.FontEx.Shadow = False
+            StateNormal.FontEx.ShadowRadius = 2
+            StateNormal.FontEx.ShadowOffsetX = 1
+            StateNormal.FontEx.ShadowOffsetY = 1
+            StateNormal.FontEx.Style = [fsBold]
+            Caption = 'Clear Log'
+            Color = clNone
+            DropDownWidth = 16
+            DropDownArrowSize = 8
+            GlobalOpacity = 255
+            GlyphAlignment = bcaLeftCenter
+            OnClick = btnClearLogClick
+            ParentColor = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 2
+            RoundingDropDown.RoundX = 1
+            RoundingDropDown.RoundY = 1
+            TextApplyGlobalOpacity = False
+            MemoryUsage = bmuHigh
+          end
+          object pnlChannel1: TBCPanel
+            Left = 848
+            Height = 21
+            Top = 2
+            Width = 255
+            Anchors = [akRight, akBottom]
+            Background.Color = 3115775
+            Background.Gradient1.StartColor = clWhite
+            Background.Gradient1.EndColor = clBlack
+            Background.Gradient1.GradientType = gtLinear
+            Background.Gradient1.Point1XPercent = 0
+            Background.Gradient1.Point1YPercent = 0
+            Background.Gradient1.Point2XPercent = 0
+            Background.Gradient1.Point2YPercent = 100
+            Background.Gradient2.StartColor = clWhite
+            Background.Gradient2.EndColor = clBlack
+            Background.Gradient2.GradientType = gtLinear
+            Background.Gradient2.Point1XPercent = 0
+            Background.Gradient2.Point1YPercent = 0
+            Background.Gradient2.Point2XPercent = 0
+            Background.Gradient2.Point2YPercent = 100
+            Background.Gradient1EndPercent = 35
+            Background.Style = bbsColor
+            BevelInner = bvNone
+            BevelOuter = bvNone
+            BevelWidth = 1
+            Border.Style = bboNone
+            BorderBCStyle = bpsBorder
+            FontEx.Color = clDefault
+            FontEx.FontQuality = fqSystemClearType
+            FontEx.Shadow = False
+            FontEx.ShadowRadius = 5
+            FontEx.ShadowOffsetX = 5
+            FontEx.ShadowOffsetY = 5
+            FontEx.Style = []
+            ParentBackground = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            TabOrder = 0
+            object lblLinkNameLabel1: TLabel
+              Left = 8
+              Height = 16
+              Top = 2
+              Width = 184
+              Alignment = taCenter
+              AutoSize = False
+              Caption = 'Max Interframe detected (ms)'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqDraft
+              ParentColor = False
+              ParentFont = False
+            end
+            object lblInterframeDetected: TLabel
+              Left = 193
+              Height = 16
+              Top = 2
+              Width = 55
+              Alignment = taRightJustify
+              AutoSize = False
+              Caption = '0'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqDraft
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+          object pnlChannel2: TBCPanel
+            Left = 645
+            Height = 21
+            Top = 2
+            Width = 198
+            Anchors = [akRight, akBottom]
+            Background.Color = 5030252
+            Background.Gradient1.StartColor = clWhite
+            Background.Gradient1.EndColor = clBlack
+            Background.Gradient1.GradientType = gtLinear
+            Background.Gradient1.Point1XPercent = 0
+            Background.Gradient1.Point1YPercent = 0
+            Background.Gradient1.Point2XPercent = 0
+            Background.Gradient1.Point2YPercent = 100
+            Background.Gradient2.StartColor = clWhite
+            Background.Gradient2.EndColor = clBlack
+            Background.Gradient2.GradientType = gtLinear
+            Background.Gradient2.Point1XPercent = 0
+            Background.Gradient2.Point1YPercent = 0
+            Background.Gradient2.Point2XPercent = 0
+            Background.Gradient2.Point2YPercent = 100
+            Background.Gradient1EndPercent = 35
+            Background.Style = bbsColor
+            BevelInner = bvNone
+            BevelOuter = bvNone
+            BevelWidth = 1
+            Border.Style = bboNone
+            BorderBCStyle = bpsBorder
+            FontEx.Color = clDefault
+            FontEx.FontQuality = fqSystemClearType
+            FontEx.Shadow = False
+            FontEx.ShadowRadius = 5
+            FontEx.ShadowOffsetX = 5
+            FontEx.ShadowOffsetY = 5
+            FontEx.Style = []
+            ParentBackground = False
+            Rounding.RoundX = 4
+            Rounding.RoundY = 4
+            TabOrder = 1
+            object lblLinkNameLabel2: TLabel
+              Left = 8
+              Height = 16
+              Top = 2
+              Width = 184
+              AutoSize = False
+              Caption = 'Interframe set (ms)'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqDraft
+              ParentColor = False
+              ParentFont = False
+            end
+            object lblInterframeSet: TLabel
+              Left = 137
+              Height = 16
+              Top = 2
+              Width = 55
+              Alignment = taRightJustify
+              AutoSize = False
+              Caption = '0'
+              Font.CharSet = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Pitch = fpVariable
+              Font.Quality = fqDraft
+              ParentColor = False
+              ParentFont = False
+            end
+          end
+        end
+        object Splitter2: TSplitter
+          Left = 560
+          Height = 325
+          Top = 355
+          Width = 5
+          Align = alRight
+          ResizeAnchor = akRight
+        end
+        object BCPanel1: TBCPanel
+          Left = 0
+          Height = 325
+          Top = 355
+          Width = 560
+          Align = alClient
+          Background.Color = clWhite
+          Background.Gradient1.StartColor = clWhite
+          Background.Gradient1.EndColor = clBlack
+          Background.Gradient1.GradientType = gtLinear
+          Background.Gradient1.Point1XPercent = 0
+          Background.Gradient1.Point1YPercent = 0
+          Background.Gradient1.Point2XPercent = 0
+          Background.Gradient1.Point2YPercent = 100
+          Background.Gradient2.StartColor = clWhite
+          Background.Gradient2.EndColor = clBlack
+          Background.Gradient2.GradientType = gtLinear
+          Background.Gradient2.Point1XPercent = 0
+          Background.Gradient2.Point1YPercent = 0
+          Background.Gradient2.Point2XPercent = 0
+          Background.Gradient2.Point2YPercent = 100
+          Background.Gradient1EndPercent = 35
+          Background.Style = bbsColor
+          BevelInner = bvNone
+          BevelOuter = bvNone
+          BevelWidth = 1
+          Border.Style = bboSolid
+          BorderBCStyle = bpsBorder
+          FontEx.Color = clDefault
+          FontEx.FontQuality = fqSystemClearType
+          FontEx.Shadow = False
+          FontEx.ShadowRadius = 5
+          FontEx.ShadowOffsetX = 5
+          FontEx.ShadowOffsetY = 5
+          FontEx.Style = []
+          ParentBackground = False
+          Rounding.RoundX = 1
+          Rounding.RoundY = 1
+          TabOrder = 4
+          object Panel8: TPanel
+            Left = 0
+            Height = 20
+            Top = 0
+            Width = 560
+            Align = alTop
+            BevelColor = clNone
+            BevelOuter = bvNone
+            Caption = 'Dump'
+            Color = 3115775
+            Font.CharSet = ANSI_CHARSET
+            Font.Color = clBlack
+            Font.Height = -12
+            Font.Name = 'Segoe UI'
+            Font.Pitch = fpVariable
+            Font.Quality = fqCleartypeNatural
+            Font.Style = [fsBold]
+            ParentColor = False
+            ParentFont = False
+            TabOrder = 0
+          end
+          inline Dump: TSynEdit
+            Left = 0
+            Height = 305
+            Top = 20
+            Width = 560
+            Align = alClient
+            Font.Height = -13
+            Font.Name = 'Courier New'
+            Font.Pitch = fpFixed
+            Font.Quality = fqCleartypeNatural
+            ParentColor = False
+            ParentFont = False
+            TabOrder = 1
+            BorderStyle = bsNone
+            Gutter.Color = 3115775
+            Gutter.Width = 4
+            Gutter.MouseActions = <>
+            RightGutter.Width = 0
+            RightGutter.MouseActions = <>
+            Highlighter = SynIniSyn1
+            Keystrokes = <            
+              item
+                Command = ecUp
+                ShortCut = 38
+              end            
+              item
+                Command = ecSelUp
+                ShortCut = 8230
+              end            
+              item
+                Command = ecScrollUp
+                ShortCut = 16422
+              end            
+              item
+                Command = ecDown
+                ShortCut = 40
+              end            
+              item
+                Command = ecSelDown
+                ShortCut = 8232
+              end            
+              item
+                Command = ecScrollDown
+                ShortCut = 16424
+              end            
+              item
+                Command = ecLeft
+                ShortCut = 37
+              end            
+              item
+                Command = ecSelLeft
+                ShortCut = 8229
+              end            
+              item
+                Command = ecWordLeft
+                ShortCut = 16421
+              end            
+              item
+                Command = ecSelWordLeft
+                ShortCut = 24613
+              end            
+              item
+                Command = ecRight
+                ShortCut = 39
+              end            
+              item
+                Command = ecSelRight
+                ShortCut = 8231
+              end            
+              item
+                Command = ecWordRight
+                ShortCut = 16423
+              end            
+              item
+                Command = ecSelWordRight
+                ShortCut = 24615
+              end            
+              item
+                Command = ecPageDown
+                ShortCut = 34
+              end            
+              item
+                Command = ecSelPageDown
+                ShortCut = 8226
+              end            
+              item
+                Command = ecPageBottom
+                ShortCut = 16418
+              end            
+              item
+                Command = ecSelPageBottom
+                ShortCut = 24610
+              end            
+              item
+                Command = ecPageUp
+                ShortCut = 33
+              end            
+              item
+                Command = ecSelPageUp
+                ShortCut = 8225
+              end            
+              item
+                Command = ecPageTop
+                ShortCut = 16417
+              end            
+              item
+                Command = ecSelPageTop
+                ShortCut = 24609
+              end            
+              item
+                Command = ecLineStart
+                ShortCut = 36
+              end            
+              item
+                Command = ecSelLineStart
+                ShortCut = 8228
+              end            
+              item
+                Command = ecEditorTop
+                ShortCut = 16420
+              end            
+              item
+                Command = ecSelEditorTop
+                ShortCut = 24612
+              end            
+              item
+                Command = ecLineEnd
+                ShortCut = 35
+              end            
+              item
+                Command = ecSelLineEnd
+                ShortCut = 8227
+              end            
+              item
+                Command = ecEditorBottom
+                ShortCut = 16419
+              end            
+              item
+                Command = ecSelEditorBottom
+                ShortCut = 24611
+              end            
+              item
+                Command = ecToggleMode
+                ShortCut = 45
+              end            
+              item
+                Command = ecCopy
+                ShortCut = 16429
+              end            
+              item
+                Command = ecPaste
+                ShortCut = 8237
+              end            
+              item
+                Command = ecDeleteChar
+                ShortCut = 46
+              end            
+              item
+                Command = ecCut
+                ShortCut = 8238
+              end            
+              item
+                Command = ecDeleteLastChar
+                ShortCut = 8
+              end            
+              item
+                Command = ecDeleteLastChar
+                ShortCut = 8200
+              end            
+              item
+                Command = ecDeleteLastWord
+                ShortCut = 16392
+              end            
+              item
+                Command = ecUndo
+                ShortCut = 32776
+              end            
+              item
+                Command = ecRedo
+                ShortCut = 40968
+              end            
+              item
+                Command = ecLineBreak
+                ShortCut = 13
+              end            
+              item
+                Command = ecSelectAll
+                ShortCut = 16449
+              end            
+              item
+                Command = ecCopy
+                ShortCut = 16451
+              end            
+              item
+                Command = ecBlockIndent
+                ShortCut = 24649
+              end            
+              item
+                Command = ecLineBreak
+                ShortCut = 16461
+              end            
+              item
+                Command = ecInsertLine
+                ShortCut = 16462
+              end            
+              item
+                Command = ecDeleteWord
+                ShortCut = 16468
+              end            
+              item
+                Command = ecBlockUnindent
+                ShortCut = 24661
+              end            
+              item
+                Command = ecPaste
+                ShortCut = 16470
+              end            
+              item
+                Command = ecCut
+                ShortCut = 16472
+              end            
+              item
+                Command = ecDeleteLine
+                ShortCut = 16473
+              end            
+              item
+                Command = ecDeleteEOL
+                ShortCut = 24665
+              end            
+              item
+                Command = ecUndo
+                ShortCut = 16474
+              end            
+              item
+                Command = ecRedo
+                ShortCut = 24666
+              end            
+              item
+                Command = ecGotoMarker0
+                ShortCut = 16432
+              end            
+              item
+                Command = ecGotoMarker1
+                ShortCut = 16433
+              end            
+              item
+                Command = ecGotoMarker2
+                ShortCut = 16434
+              end            
+              item
+                Command = ecGotoMarker3
+                ShortCut = 16435
+              end            
+              item
+                Command = ecGotoMarker4
+                ShortCut = 16436
+              end            
+              item
+                Command = ecGotoMarker5
+                ShortCut = 16437
+              end            
+              item
+                Command = ecGotoMarker6
+                ShortCut = 16438
+              end            
+              item
+                Command = ecGotoMarker7
+                ShortCut = 16439
+              end            
+              item
+                Command = ecGotoMarker8
+                ShortCut = 16440
+              end            
+              item
+                Command = ecGotoMarker9
+                ShortCut = 16441
+              end            
+              item
+                Command = ecSetMarker0
+                ShortCut = 24624
+              end            
+              item
+                Command = ecSetMarker1
+                ShortCut = 24625
+              end            
+              item
+                Command = ecSetMarker2
+                ShortCut = 24626
+              end            
+              item
+                Command = ecSetMarker3
+                ShortCut = 24627
+              end            
+              item
+                Command = ecSetMarker4
+                ShortCut = 24628
+              end            
+              item
+                Command = ecSetMarker5
+                ShortCut = 24629
+              end            
+              item
+                Command = ecSetMarker6
+                ShortCut = 24630
+              end            
+              item
+                Command = ecSetMarker7
+                ShortCut = 24631
+              end            
+              item
+                Command = ecSetMarker8
+                ShortCut = 24632
+              end            
+              item
+                Command = ecSetMarker9
+                ShortCut = 24633
+              end            
+              item
+                Command = EcFoldLevel1
+                ShortCut = 41009
+              end            
+              item
+                Command = EcFoldLevel2
+                ShortCut = 41010
+              end            
+              item
+                Command = EcFoldLevel3
+                ShortCut = 41011
+              end            
+              item
+                Command = EcFoldLevel4
+                ShortCut = 41012
+              end            
+              item
+                Command = EcFoldLevel5
+                ShortCut = 41013
+              end            
+              item
+                Command = EcFoldLevel6
+                ShortCut = 41014
+              end            
+              item
+                Command = EcFoldLevel7
+                ShortCut = 41015
+              end            
+              item
+                Command = EcFoldLevel8
+                ShortCut = 41016
+              end            
+              item
+                Command = EcFoldLevel9
+                ShortCut = 41017
+              end            
+              item
+                Command = EcFoldLevel0
+                ShortCut = 41008
+              end            
+              item
+                Command = EcFoldCurrent
+                ShortCut = 41005
+              end            
+              item
+                Command = EcUnFoldCurrent
+                ShortCut = 41003
+              end            
+              item
+                Command = EcToggleMarkupWord
+                ShortCut = 32845
+              end            
+              item
+                Command = ecNormalSelect
+                ShortCut = 24654
+              end            
+              item
+                Command = ecColumnSelect
+                ShortCut = 24643
+              end            
+              item
+                Command = ecLineSelect
+                ShortCut = 24652
+              end            
+              item
+                Command = ecTab
+                ShortCut = 9
+              end            
+              item
+                Command = ecShiftTab
+                ShortCut = 8201
+              end            
+              item
+                Command = ecMatchBracket
+                ShortCut = 24642
+              end            
+              item
+                Command = ecColSelUp
+                ShortCut = 40998
+              end            
+              item
+                Command = ecColSelDown
+                ShortCut = 41000
+              end            
+              item
+                Command = ecColSelLeft
+                ShortCut = 40997
+              end            
+              item
+                Command = ecColSelRight
+                ShortCut = 40999
+              end            
+              item
+                Command = ecColSelPageDown
+                ShortCut = 40994
+              end            
+              item
+                Command = ecColSelPageBottom
+                ShortCut = 57378
+              end            
+              item
+                Command = ecColSelPageUp
+                ShortCut = 40993
+              end            
+              item
+                Command = ecColSelPageTop
+                ShortCut = 57377
+              end            
+              item
+                Command = ecColSelLineStart
+                ShortCut = 40996
+              end            
+              item
+                Command = ecColSelLineEnd
+                ShortCut = 40995
+              end            
+              item
+                Command = ecColSelEditorTop
+                ShortCut = 57380
+              end            
+              item
+                Command = ecColSelEditorBottom
+                ShortCut = 57379
+              end>
+            MouseActions = <>
+            MouseTextActions = <>
+            MouseSelActions = <>
+            VisibleSpecialChars = [vscSpace, vscTabAtLast]
+            ReadOnly = True
+            RightEdgeColor = clNone
+            SelectedColor.BackPriority = 50
+            SelectedColor.ForePriority = 50
+            SelectedColor.FramePriority = 50
+            SelectedColor.BoldPriority = 50
+            SelectedColor.ItalicPriority = 50
+            SelectedColor.UnderlinePriority = 50
+            SelectedColor.StrikeOutPriority = 50
+            BracketHighlightStyle = sbhsBoth
+            BracketMatchColor.Background = clNone
+            BracketMatchColor.Foreground = clNone
+            BracketMatchColor.Style = [fsBold]
+            FoldedCodeColor.Background = clNone
+            FoldedCodeColor.Foreground = clGray
+            FoldedCodeColor.FrameColor = clGray
+            MouseLinkColor.Background = clNone
+            MouseLinkColor.Foreground = clBlue
+            LineHighlightColor.Background = clNone
+            LineHighlightColor.Foreground = clNone
+            inline SynLeftGutterPartList1: TSynGutterPartList
+              object SynGutterMarks1: TSynGutterMarks
+                Width = 24
+                Visible = False
+                MouseActions = <>
+              end
+              object SynGutterLineNumber1: TSynGutterLineNumber
+                Width = 17
+                Visible = False
+                MouseActions = <>
+                MarkupInfo.Background = clBtnFace
+                MarkupInfo.Foreground = clNone
+                DigitCount = 2
+                ShowOnlyLineNumbersMultiplesOf = 1
+                ZeroStart = False
+                LeadingZeros = False
+              end
+              object SynGutterChanges1: TSynGutterChanges
+                Width = 4
+                MouseActions = <>
+                ModifiedColor = 59900
+                SavedColor = clGreen
+              end
+              object SynGutterSeparator1: TSynGutterSeparator
+                Width = 2
+                Visible = False
+                MouseActions = <>
+                MarkupInfo.Background = clWhite
+                MarkupInfo.Foreground = clGray
+              end
+              object SynGutterCodeFolding1: TSynGutterCodeFolding
+                Visible = False
+                MouseActions = <>
+                MarkupInfo.Background = clNone
+                MarkupInfo.Foreground = clGray
+                MouseActionsExpanded = <>
+                MouseActionsCollapsed = <>
+              end
+            end
+          end
+        end
+        object BCPanel2: TBCPanel
+          Left = 565
+          Height = 325
+          Top = 355
+          Width = 543
+          Align = alRight
+          Background.Color = clWhite
+          Background.Gradient1.StartColor = clWhite
+          Background.Gradient1.EndColor = clBlack
+          Background.Gradient1.GradientType = gtLinear
+          Background.Gradient1.Point1XPercent = 0
+          Background.Gradient1.Point1YPercent = 0
+          Background.Gradient1.Point2XPercent = 0
+          Background.Gradient1.Point2YPercent = 100
+          Background.Gradient2.StartColor = clWhite
+          Background.Gradient2.EndColor = clBlack
+          Background.Gradient2.GradientType = gtLinear
+          Background.Gradient2.Point1XPercent = 0
+          Background.Gradient2.Point1YPercent = 0
+          Background.Gradient2.Point2XPercent = 0
+          Background.Gradient2.Point2YPercent = 100
+          Background.Gradient1EndPercent = 35
+          Background.Style = bbsColor
+          BevelInner = bvNone
+          BevelOuter = bvNone
+          BevelWidth = 1
+          Border.Style = bboSolid
+          BorderBCStyle = bpsBorder
+          FontEx.Color = clDefault
+          FontEx.FontQuality = fqSystemClearType
+          FontEx.Shadow = False
+          FontEx.ShadowRadius = 5
+          FontEx.ShadowOffsetX = 5
+          FontEx.ShadowOffsetY = 5
+          FontEx.Style = []
+          ParentBackground = False
+          Rounding.RoundX = 1
+          Rounding.RoundY = 1
+          TabOrder = 5
+          object Panel9: TPanel
+            Left = 0
+            Height = 20
+            Top = 0
+            Width = 543
+            Align = alTop
+            BevelOuter = bvNone
+            Caption = 'Clients (Only TCP/RTU-TCP)'
+            Color = 16297510
+            Font.CharSet = ANSI_CHARSET
+            Font.Color = clBlack
+            Font.Height = -12
+            Font.Name = 'Segoe UI'
+            Font.Pitch = fpVariable
+            Font.Quality = fqDraft
+            Font.Style = [fsBold]
+            ParentColor = False
+            ParentFont = False
+            TabOrder = 0
+          end
+          object Tree: TTreeView
+            Left = 0
+            Height = 305
+            Top = 20
+            Width = 543
+            Align = alClient
+            AutoExpand = True
+            Images = ImageList1
+            TabOrder = 1
+            Options = [tvoAutoExpand, tvoAutoItemHeight, tvoHideSelection, tvoKeepCollapsedNodes, tvoShowButtons, tvoShowLines, tvoShowRoot, tvoToolTips, tvoThemedDraw]
+            Items.Data = {
+              F9FFFFFF020001000000000000000000000000000000FFFFFFFF030000000000
+              00000107000000436C69656E7473010000000100000001000000FFFFFFFF0000
+              00000000000000090000003132372E302E302E31010000000100000001000000
+              FFFFFFFF0000000000000000000C0000003139322E3136382E302E3530010000
+              000100000001000000FFFFFFFF000000000000000000050000003C416C6C3E
+            }
+          end
+        end
+      end
+    end
+    object SB: TStatusBar
+      Left = 0
+      Height = 23
+      Top = 708
+      Width = 1116
+      Panels = <      
+        item
+          Text = 'Stopped'
+          Width = 80
+        end      
+        item
+          Width = 100
+        end      
+        item
+          Width = 150
+        end      
+        item
+          Width = 2000
+        end>
+      SimplePanel = False
+    end
+  end
+  object BGRAImageList1: TBGRAImageList
+    Height = 24
+    Width = 24
+    Left = 340
+    Top = 404
+    Bitmap = {
+      4C7A020000001800000018000000730200000000000078DAED96E98DEA301446
+      47887D93C5BE13F61D029550824B9812D2494A480929C125A40497E0F7199991
+      C7824042FEBD8974E4EB6BFB5E2658CCF9FA4AF6399FCFD6E572F181002CC9DA
+      A7D3C9C6C381B89354EDC3E1601F8F470E84861FB5CE6EB7A3FBFDDE071E62A2
+      7236E61C080D2E7BBE5B77B3D910E06DB75BA11120E760E4469ECB9E513EF76A
+      B5F2D6EBB578030EECA8EF65B95CBA40BC80033BEE77389FCF5D2042703EBD27
+      93C9C405E209816559246ACDD16844C6E3B18FF1F6B7237681788217566B3018
+      90E170E801579B3320C0CF7D96EB2A67127AE7FBFDBE0784C2054CC54CF632F6
+      BADADE3BF459ED6EB74B817800EBF57AB7DA9D4E87001FD8EA8CABED73C33E7B
+      BBDDF6813069B55AB7731809602AEF6BE75CE081D0EFB6D96C7A403CA2D168B8
+      80A9B91C23DF937ABD4E400044084CEE8B7BBF09210E1021B8716B572A15BB5A
+      AD72205E10B947A954B2CBE53207E20DBC28B50B85825D2C1639101A1C3D1D8C
+      8191F7907FFBFDE772393B9FCF732034B8ECA97A13CC3DE023A651DF4B2693F1
+      B3D9ACD0E0C04EEAFF663A9D161A1C24565B3EA9548A01017C6025AC2BD25788
+      F414898CF535E4A8F2181AA1DE2FFF81A330CD57181CE6D60331D53D065CE3F8
+      0F1C8519CEC2E015DF464E728DE33FC813B80A33DCE517D84363FA8FA5D6099C
+      85190E738726E13FF09B6FD365900B0051EB7E5CFF592C16F499D3608D0112D7
+      7F66B3197DE031813EC71E06481CFF311D663A9D5240103363CD89E33F98D3BB
+      BBC858CB4BE7616A8DE9E7A2FA0FBCE92A31FD477A1570E4689E49CA7F5EECFD
+      D87FE039A13D0CFFF13EF19F907389F8CFA7BFD5AFFCA756AB7DDCE3CF7FFEFC
+      E77FF29F7F74DF70C3
+    }
+  end
+  object SynIniSyn1: TSynIniSyn
+    DefaultFilter = 'INI Files (*.ini)|*.ini'
+    Enabled = False
+    NumberAttri.Style = [fsBold]
+    Left = 698
+    Top = 161
+  end
+  object timLog: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = timLogTimer
+    Left = 328
+    Top = 556
+  end
+  object ImageList1: TImageList
+    Left = 1112
+    Top = 320
+    Bitmap = {
+      4C7A020000001000000010000000120100000000000078DADD946D8A84300C86
+      8B1FA028F8010A8AA088823F14174F3047D923CCCD7B846C2BE310424BEC0EEC
+      8F0D3C24A4EFABA5900821C4711C83025C1024F67D0717A87F5D57D008266CBA
+      655940C3F96DBA799E41C3F96DBA711C41C3F96DBABEEF41C3F96DBAAEEBC005
+      EA6F9A065CE0EE5955155CF9AAEF44511479599652010469D26759261540C9F3
+      FC0B691E268DF6A6690A8A6FFC4DDDA3FFA1BD24499EBA17C7B111EAB7E9C230
+      940AA00441F0BEBFAA1F268DF69ADEC4F33CA9008214FF303EDD5BDBB6810B9F
+      EE1DC5806A98A6E984F363DD556B7EB337706EDBF684F3631DCE755D9F707EAC
+      C359CDBB13AF1DF1CEAFF9BD0D9E65D39CDF89288AE002F77DDF1F148031F9B9
+      F3BF8C1F3CDA1EE3
+    }
+  end
+end
