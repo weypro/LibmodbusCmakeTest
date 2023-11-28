@@ -140,9 +140,9 @@
 
 #include <errno.h>
 #include <stdlib.h>
-#include <thread> // 引入多线程头文件
-#include <mutex> // 引入互斥锁头文件
-#include <condition_variable> // 引入条件变量头文件
+#include <thread>
+#include <mutex>
+#include <condition_variable>
 
 #include <modbus.h>
 
@@ -165,7 +165,7 @@ std::mutex mtx;
 // 定义一个条件变量，用于等待和通知连接状态
 std::condition_variable cv;
 
-// 定义一个线程函数，用于修改标志位
+// 工作线程，模拟modbus从站执行时序流程
 void flag_thread(modbus_mapping_t *mb_mapping) {
     // 使用互斥锁和条件变量来等待连接成功
     std::unique_lock<std::mutex> lock(mtx); // 上锁
@@ -191,9 +191,13 @@ void flag_thread(modbus_mapping_t *mb_mapping) {
     std::cout << "数据2";
 
     mb_mapping->tab_registers[FLAG_PROCESS_START_ADDRESS] = 0;
+    std::cout << "停止处理";
 }
 
-int main(void) {
+int main() {
+    // 关掉缓冲，否则不会立刻输出
+    setbuf(stdout,NULL);
+    
     int s = -1;
     modbus_t *ctx;
     modbus_mapping_t *mb_mapping;
@@ -226,7 +230,6 @@ int main(void) {
                 connected = true;
                 mb_mapping->tab_registers[CLIENT_COUNTS_ADDRESS]++;
 
-                printf("打开连接");
                 std::cout<<"打开连接";
                 // 通知条件变量已经改变
                 cv.notify_one();

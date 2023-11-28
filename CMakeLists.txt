@@ -26,3 +26,4 @@ add_subdirectory(3rdparty/libmodbus)
 
 add_executable(libmodbus_cmake_test main.cpp)
 target_link_libraries(libmodbus_cmake_test PRIVATE modbus)
+target_compile_definitions(libmodbus_cmake_test PRIVATE _CRT_SECURE_NO_WARNINGS)
